@@ -60,6 +60,7 @@
     "key-spacing": [2, { mode: minimum }],
     "no-multi-spaces": [2, { exceptions: { ImportDeclaration: true, VariableDeclarator: true } }],
     "max-len": [0],
+    "import/no-extraneous-dependencies": 0,
     "no-script-url": 1,
     "no-underscore-dangle": 0,
     "space-before-function-paren": ["error", "never"],
