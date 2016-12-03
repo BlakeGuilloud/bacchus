@@ -12,11 +12,7 @@ const webpackDocs = require('./webpack.docs.config');
 const webpackDist = require('./webpack.dist.config');
 const paths = require('./paths');
 
-gulp.task('pages', () => {
-  gulp.src('./public/**/*')
-    .pipe(ghPages());
-});
-
+gulp.task('pages', () => gulp.src('./public/**/*').pipe(ghPages()));
 
 // ------------------------------------------------
 // ------------------------------------------------
