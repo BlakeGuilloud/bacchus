@@ -5,6 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import LabelApp from './LabelApp';
 import Navigation from './Navigation';
+import NotFound from './NotFound';
 
 export {
   ButtonApp,
@@ -14,4 +15,5 @@ export {
   Header,
   LabelApp,
   Navigation,
+  NotFound,
 };

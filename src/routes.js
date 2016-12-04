@@ -5,6 +5,7 @@ import {
   FormsApp,
   Home,
   LabelApp,
+  NotFound,
 } from './docs';
 
 const routes = {
@@ -16,6 +17,7 @@ const routes = {
     { path: '/colors', component: ColorsApp },
     { path: '/forms', component: FormsApp },
     { path: '/labels', component: LabelApp },
+    { path: '*', component: NotFound },
   ],
 };
 
