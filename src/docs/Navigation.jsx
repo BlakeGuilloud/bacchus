@@ -7,7 +7,6 @@ export default class Navigation extends Component {
   render() {
     return (
       <ul className="app__navigation">
-        <li><Link to="/">bacchus.</Link></li>
         <li><Link to="/buttons">buttons</Link></li>
         <li><Link to="/colors">colors</Link></li>
         <li><Link to="/forms">forms</Link></li>
