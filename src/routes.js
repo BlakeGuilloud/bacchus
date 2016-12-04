@@ -5,7 +5,9 @@ const routes = {
   path: '/',
   component: App,
   indexRoute: { component: Bacchus },
-  // childRoutes: [],
+  childRoutes: [
+    { path: '/articles', component: Bacchus },
+  ],
 };
 
 export default routes;
