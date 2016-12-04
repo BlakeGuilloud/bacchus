@@ -8,13 +8,13 @@ export default class Navigation extends Component {
     return (
       <ul className="app__navigation">
         <li><Link to="/">bacchus.</Link></li>
-        <li><Link to="/buttons">Buttons</Link></li>
-        <li><Link to="/colors">Colors</Link></li>
-        <li><Link to="/forms">Forms</Link></li>
-        <li><Link to="/labels">Labels</Link></li>
-        <li><Link to="/modals">Modals</Link></li>
-        <li><Link to="/pills">Pills</Link></li>
-        <li><Link to="/tabs">Tabs</Link></li>
+        <li><Link to="/buttons">buttons</Link></li>
+        <li><Link to="/colors">colors</Link></li>
+        <li><Link to="/forms">forms</Link></li>
+        <li><Link to="/labels">labels</Link></li>
+        <li><Link to="/modals">modals</Link></li>
+        <li><Link to="/pills">pills</Link></li>
+        <li><Link to="/tabs">tabs</Link></li>
       </ul>
     );
   }
