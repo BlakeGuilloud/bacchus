@@ -1,11 +1,11 @@
-import Bacchus from './Bacchus';
-import ColorPalette from './ColorPalette';
+import ButtonApp from './ButtonApp';
+import Home from './Home';
 import Header from './Header';
 import Navigation from './Navigation';
 
 export {
-  Bacchus,
-  ColorPalette,
+  ButtonApp,
+  Home,
   Header,
   Navigation,
 };

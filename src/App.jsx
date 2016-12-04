@@ -9,11 +9,6 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="row">
-          <div className="col-3 kiwi">apple</div>
-          <div className="col-3 lemon">apple</div>
-          <div className="col-3 col-offset-3 kiwi">apple</div>
-        </div>
         <Header />
         <div className="app__content">
           {this.props.children}

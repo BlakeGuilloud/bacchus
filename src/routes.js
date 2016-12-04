@@ -1,12 +1,12 @@
 import App from './App';
-import { Bacchus } from './docs';
+import { ButtonApp, Home } from './docs';
 
 const routes = {
   path: '/',
   component: App,
-  indexRoute: { component: Bacchus },
+  indexRoute: { component: Home },
   childRoutes: [
-    { path: '/articles', component: Bacchus },
+    { path: '/button', component: ButtonApp },
   ],
 };
 

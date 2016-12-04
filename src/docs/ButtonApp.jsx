@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-export default class Bacchus extends Component {
+export default class ButtonApp extends Component {
   static propTypes = {}
 
   render() {
     return (
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;-Bacchus
+        <button>button</button>
       </div>
     );
   }
