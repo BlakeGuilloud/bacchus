@@ -1,0 +1,10 @@
+.mixin-button-variant(@color; @background; @border; @darken: 6%) {
+  background-color: @background;
+  border-color: @border;
+  color: @color;
+
+  &:focus, &:hover {
+    background-color: darken(@background, @darken);
+    border-color: darken(@border, @darken);
+  }
+}

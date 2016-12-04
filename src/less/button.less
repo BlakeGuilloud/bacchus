@@ -1,0 +1,31 @@
+.btn {
+  border-radius: .4rem;
+  padding: .4rem;
+  cursor: pointer;
+  border-width: .1rem;
+  border-style: outset;
+}
+
+.btn-default {
+  .mixin-button-variant(@btn-default-color, @btn-default-bg, @btn-default-border);
+}
+
+.btn-primary {
+  .mixin-button-variant(@btn-primary-color, @btn-primary-bg, @btn-primary-border);
+}
+
+.btn-success {
+  .mixin-button-variant(@btn-success-color, @btn-success-bg, @btn-success-border);
+}
+
+.btn-info {
+  .mixin-button-variant(@btn-info-color, @btn-info-bg, @btn-info-border);
+}
+
+.btn-warning {
+  .mixin-button-variant(@btn-warning-color, @btn-warning-bg, @btn-warning-border);
+}
+
+.btn-danger {
+  .mixin-button-variant(@btn-danger-color, @btn-danger-bg, @btn-danger-border);
+}
